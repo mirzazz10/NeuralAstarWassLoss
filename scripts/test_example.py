@@ -97,8 +97,8 @@ class inferenceModel():
 if __name__ == "__main__":
     device = "cuda" if torch.cuda.is_available() else "cpu"
     model_arch = "Unet"     
-    ckptPath1 = r"C:\Users\mirza\ASU\MS_master_folder\semester_3\perceptionRobotics\finalUnetRuns\finalOutput\NormalLoss\version_15128766\checkpoints\epoch=255-step=8192.ckpt"
-    ckptPath2 = r"C:\Users\mirza\ASU\MS_master_folder\semester_3\perceptionRobotics\finalUnetRuns\finalOutput\WasserteinLoss\version_15100342Was\checkpoints\epoch=354-step=11360.ckpt"    
+    ckptPath1 = r"\model\version_15128766\checkpoints\epoch=255-step=8192.ckpt"
+    ckptPath2 = r"C:\Users\mirza\ASU\MS_master_folder\semester_3\perceptionRobotics\finalUnetRuns\finalOutput\WasserteinLoss\version_15100342\checkpoints\epoch=354-step=11360.ckpt"    
     model = inferenceModel( model_arch, ckptPath1, ckptPath2)
     batch_size = 1
     datasetPath = './planning-datasets/data/street/mixed_064_moore_c16.npz'
