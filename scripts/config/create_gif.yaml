@@ -1,0 +1,17 @@
+seed: 1234
+dataset: "planning-datasets/data/street/mixed_064_moore_c16"
+modeldir: "model"
+resultdir: "gif"
+planner: "na"   # either na or va
+
+encoder:
+  input: "m+"
+  arch: "CNN"
+  depth: 4
+
+problem_id: 1
+
+
+hydra:
+  job:
+    chdir: False

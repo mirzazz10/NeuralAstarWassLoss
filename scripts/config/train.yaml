@@ -1,0 +1,18 @@
+seed: 1234
+dataset: "planning-datasets/data/street/mixed_064_moore_c16"
+logdir: "model"
+Tmax: 0.25
+
+encoder:
+  input: "m+"
+  arch: "Unet"
+  depth: 4
+
+params:
+  batch_size: 16
+  num_epochs: 100
+  lr: 0.001
+  
+hydra:
+  job:
+    chdir: False
