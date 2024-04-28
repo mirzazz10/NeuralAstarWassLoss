@@ -145,6 +145,28 @@ Steps to reproduce:
   2) Train the data using scripts/train.py.
   3) Test the data using test.py and can test an example using test_example.py in scripts folder.
 
+General set of commands for the project
+
+Commands: 
+	Generate Data: 
+	
+	1) python getData.py	
+	   python preprocess_street_dataset.py		
+	   visualization.ipynb		
+	   python generate_spp_instances.py --input-path data/street/original/mixed --output-path data/street/ --maze-size 64 --mechanism moore --edge-ratio 0.25 --train-size 3200 --valid-size 400 --test-size 400
+		
+    Train and test the model
+	2) python ./script/train.py
+	   python ./script/test.py
+	
+	Check the results 
+	3) tensorboard --logdir=".\model\mixed_064_moore_c16\lightning_logs\version_15100342\"
+	   tensorboard --logdir=".\model\mixed_064_moore_c16\lightning_logs\version_15100342\"
+	
+	Check an example for the model
+	4) python ./script/test_example.py
+
+
 
 The reference for this project is as given below.
 Reference: 
