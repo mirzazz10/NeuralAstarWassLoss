@@ -149,7 +149,12 @@ General set of commands for the project
 
 Commands: 
 	Generate Data: 
-	
+	$ git clone --recursive [https://github.com/omron-sinicx/neural-astar](https://github.com/mirzazz10/NeuralAstarWassLoss.git)
+	$ python -m venv .venv
+	$ source .venv/bin/activate
+	(.venv) $ pip install .[dev]
+
+ 
 	1) python getData.py	
 	   python preprocess_street_dataset.py		
 	   visualization.ipynb		
