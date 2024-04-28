@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # Path Planning using Neural A\* Search (ICML 2021)
 
 This is the official repository for the following paper:
@@ -134,3 +135,18 @@ This repository includes some code from [RLAgent/gated-path-planning-networks](h
 ## References
 - [1] [Lisa Lee*, Emilio Parisotto*, Devendra Singh Chaplot, Eric Xing, Ruslan Salakhutdinov, "Gated Path Planning Networks", ICML, 2018.](https://arxiv.org/abs/1806.06408)
 - [2] [Marin Vlastelica Pogančić, Anselm Paulus, Vit Musil, Georg Martius, Michal Rolinek, "Differentiation of Blackbox Combinatorial Solvers", ICLR, 2020.](https://arxiv.org/abs/1912.02175)
+=======
+# NeuralAstarWassLoss
+
+This is a project which implements Wassertein loss for Neural A star path planning algorithm.
+
+Steps to reproduce: 
+  1) Import data using planning dataset.
+  2) Train the data using scripts/train.py.
+  3) Test the data using test.py and can test an example using test_example.py in scripts folder.
+
+
+The reference for this project is as given below.
+Reference: 
+  https://github.com/omron-sinicx/neural-astar
+>>>>>>> 953445346ab3a0e7a66358fcc8876913bedeb5e8
