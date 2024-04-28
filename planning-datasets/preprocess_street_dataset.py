@@ -1,6 +1,6 @@
-"""preprocessing script for CSM dataset
-Author: Ryo Yonetani
-Affiliation: OMRON SINIC X
+"""Generating data for shortest path experiments
+Author: Rahman Baig Mirza
+Reference: https://github.com/omron-sinicx/neural-astar
 """
 
 import os

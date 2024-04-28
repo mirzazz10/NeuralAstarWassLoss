@@ -1,6 +1,6 @@
 """Generating data for shortest path experiments
-Author: Mohammadamin Barekatain, Ryo Yonetani
-Affiliation: OMRON SINIC X
+Author: Rahman Baig Mirza
+Reference: https://github.com/omron-sinicx/neural-astar
 """
 
 from __future__ import print_function

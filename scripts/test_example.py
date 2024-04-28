@@ -1,3 +1,8 @@
+"""
+Running inference for a single example and generating gif file 
+Author: Rahman Baig Mirza
+Reference: https://github.com/omron-sinicx/neural-astar
+"""
 import torch
 from neural_astar.planner import NeuralAstar, VanillaAstar
 from neural_astar.utils.training import load_from_ptl_checkpoint

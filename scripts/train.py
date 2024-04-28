@@ -1,6 +1,7 @@
-"""Training Neural A* 
-Author: Ryo Yonetani
-Affiliation: OSX
+"""
+Training the data on the training data using the config file 
+Author: Rahman Baig Mirza
+Reference: https://github.com/omron-sinicx/neural-astar
 """
 from __future__ import annotations
 
