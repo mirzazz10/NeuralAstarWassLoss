@@ -1,4 +1,5 @@
-<<<<<<< HEAD
+1) Added a new loss function to the original paper.
+2) The output is better than the paper in terms of one of the metrics, but performs less than in other metrics when compared to the original paper. 
 # Path Planning using Neural A\* Search (ICML 2021)
 
 This is the official repository for the following paper:
